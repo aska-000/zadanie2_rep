@@ -31,5 +31,6 @@ namespace TestProject2
             int res = Logic.Multiply(1, 9);
             Assert.AreEqual(9, res);
         }
+
     }
 }
