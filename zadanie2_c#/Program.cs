@@ -17,5 +17,22 @@ namespace zadanie2
         }
     }
 
-    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Введите x: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Введите y: ");
+            int y = int.Parse(Console.ReadLine());
+
+            int res = Logic.Multiply(x, y);
+
+            Console.WriteLine("x * y = " + res);
+
+            Console.ReadLine();
+        }
+    }
 }
