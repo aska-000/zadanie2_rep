@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="TestProject1/TestProject1.csproj" />
   <Project Path="zadanie2_c#/zadanie2_c#.csproj" />
 </Solution>
